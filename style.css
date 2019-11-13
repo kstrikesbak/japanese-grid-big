@@ -1,5 +1,9 @@
 #app {
-
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    width: 1500px;
+    height: 750px;
 }
 
 img {
@@ -8,221 +12,211 @@ img {
 }
 
 #bamboo-big{
-    grid-column:
-    grid-row:
+    grid-column: 2 / span 1 ;
+    grid-row: 3 / span 1;
 }
 
 #bamboo{
-    grid-column:
-    grid-row: 
+    grid-column: 7 / span 1 ;
+    grid-row: 9 / span 1 ;
 }
 
-#cell-tower{
-    grid-column:
-    grid-row:
+#cell-tower {
+    grid-column: 6 / span 1;
+    grid-row: 7 / span 2;
 }
-
-#dolls-rectangle{
-    grid-column:
-    grid-row: 
+#dolls-rectangle {
+    grid-column: 1 / span 2 ;
+    grid-row: 6 / span 1;
 }
-
-#dolls-square{
-    grid-column: 
-    grid-row:
+#dolls-square {
+    grid-column: 7 / span 1;
+    grid-row: 1 / span 2;
 }
-
-#fish-flag-wide{
-    grid-column:
-    grid-row: 
+#fish-flag-wide {
+    grid-column: 3 / span 2;
+    grid-row: 9 / span 1;
 }
-
-#fish-flag{
-    grid-column:
-    grid-row: 
+#fish-flag {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
 }
-
-#flag-rectangle{
-    grid-column: 
-    grid-row: 
+#flag-rectangle {
+    grid-column: 2 / span 1;
+    grid-row: 5 / span 1;
 }
-
-#flag-square{
-    grid-column: 
-    grid-row:
+#flag-square {
+    grid-column: 4 / span 1;
+    grid-row: 1 / span 2;
 }
-
-#gate-wide{
-    grid-column: 
-    grid-row:
+#gate {
+    grid-column: 1 / span 1;
+    grid-row: 7 / span 1;
 }
-
-#gate{
-    grid-column:
-    grid-row:
+#gate-wide {
+    grid-column: 8 / span 2;
+    grid-row:5 / span 1;
 }
-
-#horn-horizontal{
-    grid-column:
-    grid-row:
+#horn-horizontal {
+    grid-column: 6 / span 1;
+    grid-row: 2 / span 1;
 }
-
-#horn-vertical{
-    grid-column:
-    grid-row:
-}
+#horn-vertical {
+    grid-column: 5 / span 1;
+    grid-row: 7 / span 3;
+    }
 
 #kimono-1{
-    grid-column:
-    grid-row:
+    grid-column: 8 / span 2;
+    grid-row: 1 / span 2;
 }
 
 #kimono-2{
-    grid-column:
-    grid-row:
+    grid-column: 3 / span 2;
+    grid-row: 7 / span 2;
 }
 
 #lantern-short{
-    grid-column:
-    grid-row:
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 2;
 }
 
 #lantern-tall{
-    grid-column: 
-    grid-row:
+    grid-column: 9 / span 1;
+    grid-row: 6 / span 2;
 }
 
 #lanterns-three{
-    grid-column: 
-    grid-row:
+    grid-column: 5 / span 3;
+    grid-row: 3 / span 1;
 }
 
 #map-wide{
-    grid-column: 
-    grid-row:
+    grid-column: 8 / span 2;
+    grid-row: 4 / span 1;
 }
 
 #map{
-    grid-column:
-    grid-row:
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
 }
 
 #masks-wide{
-    grid-column: 
-    grid-row:
+    grid-column: 3 / span 2;
+    grid-row: 4 / span 1;
 }
 
 #masks{
-    grid-column: 
-    grid-row:
+    grid-column: 3 / span 1;
+    grid-row: 6 / span 1;
 }
 
 #monster-wide{
-    grid-column: 
-    grid-row:
+    grid-column: 5 / span 2;
+    grid-row: 1 / span 1;
 }
 
 #monster{
-    grid-column:
-    grid-row:
+    grid-column: 1 / span 1;
+    grid-row: 5 / span 1;
 }
 
 #pagoda-big{
-    grid-column:
-    grid-row:
+    grid-column: 5 / span 2;
+    grid-row: 5 / span 1;
 }
 
 #pagoda{
-    grid-column:
-    grid-row:
+    grid-column: 6 / span 1;
+    grid-row: 9 / span 1;
 }
 
 #painting{
-    grid-column:
-    grid-row:
+    grid-column: 3 / span 2;
+    grid-row: 3 / span 1;
 }
 
 #quadropi-five{
-    grid-column:
-    grid-row:
+    grid-column: 5 / span 3;
+    grid-row:6 / span 1;
 }
 
 #quadropus{
-    grid-column:
-    grid-row:
+    grid-column: 2 / span 1;
+    grid-row:4 / span 1;
 }
 
 #sake-wide{
-    grid-column:
-    grid-row:
+    grid-column: 8 / span 2;
+    grid-row: 8 / span 1;
 }
 
 #sake{
-    grid-column:
-    grid-row:
+    grid-column: 5 / span 1;
+    grid-row: 4 / span 1;
 }
 
 #sunrise-horizontal{
-    grid-column: 
-    grid-row:
+    grid-column: 9 / span 1;
+    grid-row: 3 / span 1;
 }
 
 #sushi-extra-wide{
-    grid-column: 
-    grid-row:
+    grid-column: 3 / span 2;
+    grid-row: 5 / span 1;
 }
 
 #sunrise-vertical{
-    grid-column:
-    grid-row:
+    grid-column: 2 / span 1;
+    grid-row: 7 / span 3;
 }
 
 #sushi-wide{
-    grid-column:
-    grid-row: 
+    grid-column: 1 / span 1;
+    grid-row:8 / span 2; 
 }
 
 #sushi{
-    grid-column:
-    grid-row:
+    grid-column: 6 / span 1;
+    grid-row: 4 / span 1;
 }
 
 #vase-horizontal{
-    grid-column:
-    grid-row:
+    grid-column: 5 / span 1;
+    grid-row: 2 / span 1;
 }
 
 #vase-vertical-short{
-    grid-column:
-    grid-row: 
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 2;
 }
 
 #vase-vertical-tall{
-    grid-column:
-    grid-row:
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 2;
 }
 
 #volcano{
-    grid-column: 
-    grid-row:
+    grid-column: 8 / span 2;
+    grid-row: 9 / span 1;
 }
 
 #wave-horizontal{
-    grid-column: 
-    grid-row: 
+    grid-column: 4 / span 1;
+    grid-row: 6 / span 1;
 }
 
 #wave-vertical{
-    grid-column: 
-    grid-row: 
+    grid-column: 7 / span 1;
+    grid-row: 4 / span 2;
 }
 
 #writing-horizontal{
-    grid-column: 
-    grid-row: 
+    grid-column: 8 / span 1;
+    grid-row: 3 / span 1;
 }
 
 #writing-vertical{
-    grid-column: 
-    grid-row: 
+    grid-column: 8 / span 1;
+    grid-row: 6 / span 2; 
 }
